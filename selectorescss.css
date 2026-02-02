@@ -1,0 +1,16 @@
+/*SELECTOR UNIVERSAL */
+*{ margin:3px;}
+
+/*SELECTOR DE ELEMENTO */
+h1 {color:darkviolet; font-style:italic;}
+
+/*SELECTOR DE IDENTIFICADOR */
+#introduccion {border-style:dotted; padding:1em;}
+
+/*SELECTOR DE CLASE */
+.negativo {color:crimson; font-weight: bolder;}
+.positivo {color:chartreuse; font-weight: bolder;}
+
+/*SELECTOR DE ATRIBUTO */
+input[type] {background-color: #ddd;}
+input[type=text] {color:lightcoral; font-weight: bolder;}

@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border border-box;
+    font-family: David Libre; 
+}
+body{
+    background-color:#a996b1d2;
+    display: flex;
+    flex-direction: column ;
+    min-height: 100vh;
+}
+header{
+   background-color: rgb(129, 86, 139);
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 30px;
+
+}
+header h1{
+    color:black;
+
+}
+nav{
+    display:flex;
+    gap:20px;
+    
+}
+nav a{
+    color:#33122E ;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all 0.3s ease;
+
+} 
+nav a:hover{
+    background-color: #6B5465;
+    color:white;
+    display:inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (max-width: 680px){
+    header{
+    flex-direction:column;
+    }
+    nav{
+        flex-direction:column;
+        align-items:center;
+        padding-top:15px;
+    }
+}
+main h2{
+    text-align: center;
+}
+
+body {
+    display: flex;
+}
+
+main {
+    flex: 1;
+}
+
+ footer{
+    background-color: #dfc3e9c0;
+    color: black;
+    width:100%;
+    position:relative;
+    bottom:0;
+    display: flex;
+    justify-content: space-around; 
+    padding:20px;
+
+ }
+
+footer div{
+    margin: 20px;
+}
+footer div a{
+text-decoration: none;
+color: black;
+
+
+}
+bloque1 h1 {
+    text-align: center;
+    margin: 20px 0 5px;
+}
+.bloque1 .imagen-full {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.bloque1 .contenido {
+    display: flex;
+    gap: 20px;
+}
+.bloque1 .texto {
+    flex: 1;
+}
+.bloque1 .imagenes-grid {
+        flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.bloque1 .imagenes-grid img{
+width:250px;
+}
+
+.bloque4 {
+    display: flex;
+    gap: 20px;
+}
+.bloque4 .card {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bloque4 img {
+    width: 100%;
+    border-radius: 10px;
+}
