@@ -1,0 +1,9 @@
+.bloque2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background: #f0f0f0;
+    padding: 20px;    
+    justify-content: space-around;
+    text-align: center;
+}

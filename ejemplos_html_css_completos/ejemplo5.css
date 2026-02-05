@@ -1,0 +1,13 @@
+.bloque5 {
+    position: relative;
+    height: 300px;
+    background: url('https://picsum.photos/1400/400?8') center/cover no-repeat;
+}
+.bloque5 .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(0,0,0,0.5);
+    padding: 15px;
+    color: #fff;
+}

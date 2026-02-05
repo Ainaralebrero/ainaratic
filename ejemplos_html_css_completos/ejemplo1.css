@@ -1,0 +1,23 @@
+.bloque1 h1 {
+    text-align: center;
+    margin: 20px 0 5px;
+}
+.bloque1 .imagen-full {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.bloque1 .contenido {
+    display: flex;
+    gap: 20px;
+}
+.bloque1 .texto {
+    flex: 1;
+}
+.bloque1 .imagenes-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}

@@ -105,10 +105,16 @@ bloque1 h1 {
     flex: 1;
 }
 .bloque1 .imagenes-grid {
-        flex: 1;
+    flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+}
+
+.bloque1 .imagenes-grid img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
 }
 
 .bloque1 .imagenes-grid img{
